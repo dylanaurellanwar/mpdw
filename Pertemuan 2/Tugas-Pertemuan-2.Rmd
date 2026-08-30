@@ -607,7 +607,7 @@ ramalandes1
 des.2<- HoltWinters(train.ts, gamma = FALSE, beta = 0.3, alpha = 0.6)
 plot(des.2)
 
-#ramalan
+#ramalanh
 ramalandes2<- forecast(des.2, h=40)
 ramalandes2
 ```
